@@ -48,7 +48,7 @@ section {
 
 .news article:nth-child(1) h2::before,
 .news article:nth-child(2) h2::before {
-    content: "\2605  new";
+    content: "\2605  NEW";
     font-weight: bold;
     font-size: 22px;
     margin-right: 10px; 
@@ -60,12 +60,12 @@ article {
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
-    border: 3px solid rgb(128, 128, 128) ;
+    border: 1px solid rgb(128, 128, 128) ;
     display: flex;
-  justify-content: center; 
-  align-items: center; 
-  text-align: center; 
-  flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    flex-direction: column;
 }
 
 article p {
@@ -75,7 +75,6 @@ article p {
 
  article:nth-child(2n) {
     background-color: rgba(239, 206, 229, 0.982);
-    /* rgba(226, 210, 221, 0.982); */
 }
 
 article a:hover {
@@ -134,6 +133,10 @@ footer .Links > a {
     letter-spacing: 0.5rem;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+footer .Links > a:hover {
+    color: black;
 }
 
 .copyright {
